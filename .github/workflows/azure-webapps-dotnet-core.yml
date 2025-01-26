@@ -53,7 +53,7 @@ jobs:
             ${{ runner.os }}-nuget-
 
       - name: Build with dotnet
-        run: dotnet build TaxFiler/TaxFiler.csproj --configuration Release
+        run: dotnet build TaxFiler.DB/TaxFiler.DB.csproj --configuration Release
 
       - name: dotnet publish
         run: dotnet publish TaxFiler/TaxFiler.cspro -c Release -o ${{env.DOTNET_ROOT}}/myapp
