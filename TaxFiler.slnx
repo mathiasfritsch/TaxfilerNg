@@ -1,0 +1,13 @@
+﻿<Solution>
+  <Folder Name="/SolutionFiles/">
+    <File Path=".gitignore" />
+    <File Path=".github\workflows\azure-webapps-dotnet-core.yml" />
+  </Folder>
+  <Project Path="LlamaIndex.Core\LlamaIndex.Core.csproj" Type="Classic C#" />
+  <Project Path="LlamaParse\LlamaParse.csproj" Type="Classic C#" />
+  <Project Path="TaxFiler.DB\TaxFiler.DB.csproj" Type="Classic C#" />
+  <Project Path="TaxFiler.Model\TaxFiler.Model.csproj" Type="Classic C#" />
+  <Project Path="TaxFiler.Service\TaxFiler.Service.csproj" Type="Classic C#" />
+  <Project Path="TaxFilerTests\TaxFilerTests.csproj" />
+  <Project Path="TaxFiler\TaxFiler.csproj" />
+</Solution>
