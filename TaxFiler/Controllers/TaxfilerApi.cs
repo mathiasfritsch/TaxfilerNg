@@ -7,7 +7,7 @@ using TaxFiler.Service;
 
 namespace TaxFiler.Controllers;
 
-// [Authorize]
+[Authorize]
 [Route("api/documents")]
 [ApiController]
 public class TaxFilerApi(TaxFilerContext taxFilerContext,IDocumentService documentService) : ControllerBase

@@ -5,7 +5,7 @@ using TaxFiler.Service;
 
 namespace TaxFiler.Controllers;
 
-// [Authorize]
+[Authorize]
 [Route("documents")]
 public class DocumentsController(IDocumentService documentService) : Controller
 {
