@@ -13,3 +13,4 @@ Obj/
 /.idea/
 /TaxFiler/TaxfilerDb.db
 /TaxFiler.sln.DotSettings.user
+/TaxFiler/ClientApp/.angular

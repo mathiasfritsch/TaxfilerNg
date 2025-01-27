@@ -1,24 +1,6 @@
-<!-- ...existing code... -->
-<div *ngIf="documents.length > 0">
-  <h2>Documents</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>ID</th>
-        <th>Total</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let document of documents">
-        <td>{{ document.name }}</td>
-        <td>{{ document.id }}</td>
-        <td>{{ document.total }}</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-<div *ngIf="documents.length === 0">
-  <p>No documents found for the selected month.</p>
-</div>
-<router-outlet />
+<body>
+  <app-nav-menu></app-nav-menu>
+  <main class="container">
+    <router-outlet></router-outlet>
+  </main>
+</body>

@@ -8,7 +8,7 @@ using TaxFiler.Service;
 
 namespace TaxFiler.Controllers
 {
-    [Authorize]
+    // [Authorize]
     public class HomeController : Controller
     {
         private readonly TaxFilerContext _taxFilerContext;

@@ -7,7 +7,7 @@ using TaxFiler.Service;
 
 namespace TaxFiler.Controllers;
 
-[Authorize]
+// [Authorize]
 [Route("api/documents")]
 [ApiController]
 public class TaxFilerApi(TaxFilerContext taxFilerContext,IDocumentService documentService) : ControllerBase
@@ -15,7 +15,7 @@ public class TaxFilerApi(TaxFilerContext taxFilerContext,IDocumentService docume
 
     [Route("testcontext")]
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<DocumentDto>>> TestContext(string yearMonth)
+    public async Task<ActionResult<IEnumerable<DocumentDto>>> TestContext()
     {
         string message = "";
         
