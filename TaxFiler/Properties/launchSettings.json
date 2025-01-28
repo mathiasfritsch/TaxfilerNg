@@ -8,8 +8,7 @@
       "applicationUrl": "http://localhost:9090",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "DOTNET_ENVIRONMENT": "Development",
-        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
+        "DOTNET_ENVIRONMENT": "Development"
       }
     }
   }
